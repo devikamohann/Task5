@@ -1,0 +1,578 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Bootstrap7</title>
+    <style>
+        .navbar{
+            background-color: #e4a13e;
+            display: inline-block;
+            color: white;
+            
+        }
+        nav ul li a{
+            color: white;
+        }
+ 
+        input{
+            
+            border: none;
+            background-color: #ffcc00;
+
+        }
+        button{
+            color: white;
+            padding: 15px;
+            border: none;
+            background-color: #01a9db;
+        }
+
+        .abc{
+            background-color: orange;
+            padding: 2rem 1rem;
+            padding-top: 50px;
+            padding-left: 200px;
+            margin-top: 10px;
+            color: white;
+            text-align: left;
+            font-size: 25;
+            
+            
+            
+        }
+       
+        .def{
+            padding-top: 10px;
+            padding-left: 200px;
+            text-align: left;
+            font-size: 25;
+            
+        }
+        .def img{
+            
+           
+
+        }
+        .double{
+            background-image: url(3.png);
+            height: 300px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+        }
+        .cover{
+            background-color: #ffcc00;
+            opacity: 60%;
+            height: 100%;
+            width: 100%;
+            align-items: center;
+        }
+        .content{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            height: 80%;
+            width: 80%;
+        }
+        .ghi{
+            background-color: orange;
+            padding: 2rem 1rem;
+            margin-top: 20px;
+            margin-bottom: 5 rem;
+            border-radius: 0.3rem;
+            color: white;
+            
+        }
+        .jkl{
+            margin-top: 100px;
+            padding: 95px;
+            padding-left: 75px;
+            padding-bottom: 200px;
+            padding-top: 10px;
+            height: 350px;
+        
+        }
+        .jkl.container{
+            padding: 20px;
+            padding-top: 10px;
+        }
+        .double2{
+            background-image: url(7.png);
+            height: 300px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+        }
+
+        .cover2{
+            background-color: #ffcc00;
+            opacity: 60%;
+            height: 100%;
+            width: 100%;
+            align-items: center;
+        }
+        .content2 {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            height: 80%;
+            width: 80%;
+        }
+       
+        
+        
+        .mno{
+            background-color: orange;
+            color: white;
+        }
+        .mno button{
+            border-radius: 10px;
+        }
+        .pqr{
+
+        }
+        .stu{
+            
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+        
+        .double3{
+            background-image: url(8.png);
+            display: flex;
+            align-items: center;
+            height: 50%;
+        }
+        .cover3{
+            background-color: #ffcc00;
+            opacity: 60%;
+            height: 100%;
+            width: 100%;
+            align-items: center;
+        }
+       
+        .vwx{
+
+        }
+        .vwx img{
+            padding-left: 45px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#"><img src="1.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">  </span></button>
+                <div class="container">
+                    <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                        <ul>
+                        <div class="navbar-collapse collapse show" id="navbarExampleDefault">
+                            <ul class="navbar-nav me-auto ps-5 mb-2 mb-lg-0 fs-4">
+                                <li class="nav-item">
+                                    <a class="nav-link active">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active">Connect</a>
+                                </li>
+                                <form class="d-flex shadow" role="search">
+                                    <input type="search" placeholder="Search.." aria-label="Search">
+                                    <button type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                            </ul>
+                           
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+
+<div class="abc">
+    <div class="first">
+        <div class="row">
+            <div class="col-md-6">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3 class="fw-bold text-left">First I wanted to be a <br> veterinarian</h3>
+                <p class="text-left">Loreum Ipsum available but the majority have <br> Buffered alteration in some form,by injected <br>humour randomised words</p>
+                <div class="btn btn-primary">Contact us</div>
+                <div class="btn btn-outline-light">Our Service</div>
+                
+            </div>
+            <div class="col-md-6">
+                <center>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <img src="2.png"  width="400" height="400">
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="def">
+    <div class="first">
+        <div class="row">
+           <div class="col-md-6">
+                <br>
+                <br>
+                <br>
+                <h3>As a veterinarian and <br> lover of animals</h3>
+                <p>Loreum Ipsum available but the majority <br> suffered alteration in some form, <br>by humour randomised words</p>
+                <div class="btn btn-warning">Our Services</div>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-6">
+                <br>
+                <br>
+                <div class="double">
+                <div class="cover">
+                    <div class="content">
+                        <i class="fa fa-play-circle" style="font-size: 70px;color:white;">
+                        </i>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ghi">
+    <h2 class="text-center">Title Here</h2>
+    <p class="text-center">Loreum Ipsum available but the majority suffered alteration in some form</p> 
+    <div>
+    <header>
+        <div class="second">
+            <div class="row">
+                <div class="col-md-4">
+                    <center>
+                    <img src="third.png" width="300" height="300">
+                    <h2>Veterinarian</h2>
+                    <p>Loreum Ipsum available but the majority <br> suffered alteration in some</p>
+                    </center>
+                </div>
+                <div class="col-md-4">
+                    <center>
+                    <img src="fourth.png" width="300" height="300">
+                    <h2>Vaccination Care</h2>
+                    <p>Loreum Ipsum available but the majority <br> suffered alteration in some</p>
+                    </center>
+                </div>
+                <div class="col-md-4">
+                    <center>
+                    <img src="fifth.png" width="300" height="300">
+                    <h2>Dental Care</h2>
+                    <p>Loreum Ipsum available but the majority <br> suffered alteration in some</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jkl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-sm-center">
+            <div class="double2">
+                <div class="cover2">
+                    <div class="content2">
+                        
+                    </div>	
+                </div>
+            </div>	
+            </div>
+            <div class="col-md-6 fs-4 text-sm-9 text-md-end">
+                <h3 class="text-right">As a veterinarian and lover of animals</h3>
+                <p class="text-right">Loreum Ipsum available but the majority have Buffered alteration in some form,by injected humour randomised words</p>
+                <div class="btn btn-warning">Our Services</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mno">
+    <h2 class="text-center">Title Here</h2>
+    <p class="text-center">Loreum Ipsum available but the majority suffered alteration in some form</p>
+    <header>
+    <div class="second">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                <img src="seven.png" width="300" height="300">
+            
+                <h5 class="fw-bold"><strike>&nbsp;$40&nbsp;</strike>&nbsp;&nbsp;&nbsp;$25</h5>
+                <p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </p>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img src="eight.png" width="300" height="300">
+                
+                <h5 class="fw-bold"><strike>&nbsp;$40&nbsp;</strike>&nbsp;&nbsp;&nbsp;$25</h5>
+                <p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </p>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img src="nine.png" width="300" height="300">
+                
+                <h5 class="fw-bold"><strike>&nbsp;$50&nbsp;</strike>&nbsp;&nbsp;&nbsp;$30</h5>
+                <p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </p>
+                </center>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="pqr">
+    <center>
+    <h2 class="text-center">The Vetcare team</h2>
+    <p class="text-center">Loreum Ipsum available but the majority suffered alteration in some form</p>
+    <header>
+    <div class="second">
+        <div class="row">
+            <div class="col-md-4">
+            
+                <img src="ten.png" width="300" height="300">
+            <center>
+                <p class="text-center"><strong>Jennifer Mullen</strong> <br> VETERINARY</p>
+            </center>
+            <div class="container">
+                <div class="row row justify-content-center">
+                    <div class="col-sm-2">
+                        <div class="btn btn-warning rounded-circle text-white"><img src="Instagram.png" height="20"></i></div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="btn btn-warning rounded-circle text-white"><img src="icon-4.png" height="20"></div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="btn btn-warning rounded-circle text-white"><img src="Twitter.png" height="20"></div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="btn btn-warning rounded-circle text-white "><img src="WhatsApp.png" height="20"></div>
+                    </div>
+                </div>
+            </div>	
+              
+            </div>
+            <div class="col-md-4">
+                <img src="eleven.png"  width="300" height="300">
+                <p class="text-center"><strong>Shereen Collins</strong> <br> ADMINISTRATION </p>
+                <div class="container">
+                    <div class="row row justify-content-center">
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white"><img src="Instagram.png" height="20"></i></div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white"><img src="icon-4.png" height="20"></div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white"><img src="Twitter.png" height="20"></div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white "><img src="WhatsApp.png" height="20"></div>
+                        </div>
+                    </div>
+                </div>	
+                
+            </div>
+            <div class="col-md-4">
+                <img src="twelve.png"  width="300" height="300">
+                <p class="text-center"><strong>Jennifer Mullen</strong> <br> VETERINARY</p>
+                <div class="container">
+                    <div class="row row justify-content-center">
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white"><img src="Instagram.png" height="20"></i></div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white"><img src="icon-4.png" height="20"></div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white"><img src="Twitter.png" height="20"></div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="btn btn-warning rounded-circle text-white "><img src="WhatsApp.png" height="20"></div>
+                        </div>
+                    </div>
+                </div>	
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="stu">
+    <div class="double3">
+        <div class="cover3">
+        <div class="container3">
+            <center>
+            <div class="row row row justify-content-between">
+                <div class="col-md-4">
+                
+                <center>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="Icon-2.png" alt="">
+                    
+                    <br>
+                    <br>
+                    <p class="text-center">+34793<br> <strong> Happy Clients </strong></p>
+                </center>
+                
+                </div>
+                <div class="col-md-4">
+                <center>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="Icon-1.png" alt="">
+                    
+                    <br>
+                    <br>
+                    <p class="text-center">+45382 <br> <strong> Department </strong></p>
+                </center>    
+                </div>
+                <div class="col-md-4">
+                <center>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="Icon.png" alt="">
+                   
+                    <br>
+                    <br>
+                    <p class="text-center">+54782 <br><strong>Vaccinations</strong></p>
+                </center>   
+                </div>
+            </div>
+            </center>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="vwx">
+    <div class="container fs-4">
+    <center><h2 class="text-center"><strong>Recent Posts</strong></h2>
+        <p class="text-center">Loreum Ipsum available but the majority suffered alteration in some form</p>
+    </center> 
+    <div class="container fs-5">
+        <div class="row">
+            <div class="col-xl-4">
+                <center><img src="thirteen.png" width="300" height="300"></center>
+                <h3>As a veterinarian and lover of animals</h3>
+                <h6 class="text-info">FEBRUARY 09,2020</h6>
+                <br>
+                <p>Lorem Ipsum available but the majority have suffered alteration in some words which look.</p>
+                <h4 class="text-info">Read More+</h4>
+                
+            </div>
+            <div class="col-xl-4 shadow">
+                        <center><img src="fourteen.png" width="300" height="300"></center>
+						<h3>As a veterinarian and lover of animals</h3>
+						<h6 class="text-info">FEBRUARY 09,2020</h6>
+						<br>
+						<p>Lorem Ipsum available but the majority have suffered alteration in some words which look.</p>
+						<h4 class="text-info">Read More+</h4>
+            </div>
+            <div class="col-xl-4">
+                        <center><img src="fifteen.png" width="300" height="300"></center>
+						<h3>As a veterinarian and lover of animals</h3>
+						<h6 class="text-info">FEBRUARY 09,2020</h6>
+						<br>
+						<p>Lorem Ipsum available but the majority have suffered alteration in some words which look.</p>
+						<h4 class="text-info">Read More+</h4>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<footer>
+<div class="yz bg-dark text-white">
+    <div class="second">
+        <div class="row">
+            <div class="col-2 text-md-center">
+                <h3>About</h3>
+                <p>History <br> Our Team <br> Brand <br> Guidliness <br> Terms& <br>conditions <br> privacy <br> policy </p>
+            </div>
+            <div class="col-2 text-md-center">
+                <h3>Service</h3>
+                <p>How to <br> Order <br> our <br> Product <br> Order <br> status <br> promo <br> Payment <br> method </p>
+            </div>
+            <div class="col-5 text-md-center">
+                <div align="right">
+                    <h3>Title here</h3>
+                    <p>Loreum Ipsum available, but the majority</p></div>
+                    <div class="container">
+                        <div class="row row justify-content-end">
+                            <div class="col-7 bg-warning"><br><br><br></div>
+                            <div class="col-2 bg-info">
+                                <br>
+                                <center><img src="icon-4.png" alt=""></center>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row row justify-content-end">
+                            <div class="col-6"></div>
+                            <div class="col-1">
+                                <img src="Instagram.png">
+                            </div>
+                            <div class="col-1">
+                                <img src="Facebook.png">
+                            </div>
+                            <div class="col-1">
+                                <img src="Twitter.png">
+                            </div>
+                            <div class="col-1">
+                                <img src="WhatsApp.png">
+                            </div>
+                        </div>    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+</body>
+</html>
